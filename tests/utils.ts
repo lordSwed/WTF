@@ -27,4 +27,12 @@ describe('utils', () => {
         expect(result).toEqual('1,2 Kč');
         expect(spy).toHaveBeenCalledTimes(1);
     })
+
+    it('findNumber', () => {
+        expect(Utils.findNumber('1abc2')).toEqual(12);
+    })
+
+    it('doWTF', () => {
+        expect(Utils.doWTF(['1abc2', 'pqr3stu8vwx', 'a1b2c3d4e5f', 'treb7uchet'])).toEqual(142);
+    })
 })
