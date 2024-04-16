@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Jest" tests="4" failures="0" errors="0" time="3.539">
+  <testsuite name="utils" errors="0" failures="0" skipped="0" timestamp="2024-04-16T14:08:17" time="3.271" tests="4">
+    <testcase classname="utils hallo" name="utils hallo" time="0.005">
+    </testcase>
+    <testcase classname="utils numberFormater - roundDown" name="utils numberFormater - roundDown" time="0.001">
+    </testcase>
+    <testcase classname="utils numberFormater - roundUp" name="utils numberFormater - roundUp" time="0">
+    </testcase>
+    <testcase classname="utils price" name="utils price" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>
